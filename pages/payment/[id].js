@@ -40,7 +40,7 @@ const val={
 
 useEffect(()=>{
   makepayment();
-},[]);
+},[makepayment]);
 
   return (<>
   

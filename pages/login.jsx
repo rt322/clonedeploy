@@ -58,7 +58,7 @@ const handleToggle=()=>{
         </div>
 <div className="flex justify-center lg:w-9/12 flex-col sm:flex-row">
 <div className="text-white">
-  <p className="font-bold lg:text-5xl text-md lg:px-0 px-10">There's a smarter way to OYO around.</p>
+  <p className="font-bold lg:text-5xl text-md lg:px-0 px-10">There is a smarter way to OYO around.</p>
   <p className="text-md lg:text-2xl  lg:py-4 lg:px-0 px-12 py-2">Sign up with your phone number and get exclusive access to discounts and savings on OYO stays and with our many travel partners.</p>
 </div>
 <div className="w-9/12 border-2 border-red-500 h-120 ml-5 bg-slate-50">

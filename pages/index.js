@@ -12,7 +12,7 @@ import Footer from "@/components/Footer";
   return (
     <div>
       <Head>
-      <title>OYO:India's Best Hotel Booking Site.</title>
+      <title>OYO:India&apos;s Best Hotel Booking Site.</title>
     
       </Head>
      <Header1/>
