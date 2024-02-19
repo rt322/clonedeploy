@@ -2,7 +2,7 @@ import Filters from "@/components/Filters";
 import Header1 from "@/components/Header1";
 import Hotel from "@/components/Hotel";
 import axios from "axios";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 
 const Hotels = ({ hotels }) => {
   const [list, setlist] = useState([]);
@@ -16,18 +16,18 @@ const Hotels = ({ hotels }) => {
     }
   };
 
-  const handlechecklist = async () => {
+  const handlechecklist = useCallback(async () => {
     const { data } = await axios.get(`/api/facilities/search?val=${checklist}`);
     if (data?.hotels) {
       setlist(data.hotels);
     }
-  };
+  }, [checklist]);
 
   useEffect(() => {
     if (checklist.length > 0) {
       handlechecklist();
     }
-  }, [checklist]);
+  }, [checklist, handlechecklist]);
 
   return (
     <>

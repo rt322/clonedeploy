@@ -38,7 +38,7 @@ useEffect(()=>{
 return (
   <li key={ele.name} className="mr-10 mb-3">
   <span className="m-3">
-<Image  src={ele.img} width={200} height={200} className="w-20 h-20 rounded-full"/>
+<Image  src={ele.img} alt="hotel image" width={200} height={200} className="w-20 h-20 rounded-full"/>
 
   </span>
   <span ml-5>{ele.name}</span>
