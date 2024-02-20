@@ -20,7 +20,7 @@ import Footer from "@/components/Footer";
      <Header3/>
      <div className="lg:mx-20 mx-2">
      <div className=" my-10">
-      <Image src={'/banner1.avif'} alt="banner1" width={200} height={200}  className="lg:h-80  h-40 w-full "/>
+      <Image src={'/rkul4n6p.png'} alt="banner1" width={200} height={200}  className="lg:h-80 h-40 w-full "  quality={100}/>
      </div>
 
      <div >
